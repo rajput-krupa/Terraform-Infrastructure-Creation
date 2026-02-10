@@ -1,7 +1,7 @@
 # Terraform-Infrastructure-Creation
 <img width="882" height="559" alt="Screenshot 2026-02-10 at 3 23 10 AM" src="https://github.com/user-attachments/assets/5a40d5b2-2cd3-4f35-be59-b2b55a083517" />
 
-## 🌐 Provisioned Multi-Environment Infrastructure using Terraform
+## Provisioned Multi-Environment Infrastructure using Terraform
 This project demonstrates the use of Terraform (Infrastructure as Code) to provision and manage isolated infrastructure environments for Development, Staging, and Production on AWS. The goal is to ensure consistency, scalability, and efficient resource management across all environments.
 
 ## ⚙️ Architecture Overview
