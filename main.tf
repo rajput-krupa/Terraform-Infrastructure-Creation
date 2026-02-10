@@ -1,5 +1,5 @@
 module "devlopment-infra" {
-  source = "./Infra-app-config"
+  source = "./Infrastructure"
   env = devlopment
   instance_count = 1
   instance_type = "t2.micro"
@@ -7,7 +7,7 @@ module "devlopment-infra" {
 }
 
 module "production-infra" {
-  source = "./Infra-app-config"
+  source = "./Infrastructure"
   env = production
   instance_count = 2
   instance_type = "t2.medium"
@@ -15,7 +15,7 @@ module "production-infra" {
 }
 
 module "staging-infra" {
-  source = "./Infra-app-config"
+  source = "./Infrastructure"
   env = staging
   instance_count = 1
   instance_type = "t2.small"
